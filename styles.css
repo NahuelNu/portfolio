@@ -1,0 +1,87 @@
+#cabecera{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.663);
+    height: 100px;
+}
+#cabecera--logo{
+    width: 5%;
+    height: 100%;
+    align-items: center;
+    margin: 0 30px;
+    margin-left: 20px;
+}
+#cabecera--logo--img{
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    margin-top: 5px;
+    opacity: 0.85;
+}
+#cabecera--nombre{
+    width: 25%;
+    margin-left: 5px;
+}
+#cabecera--espacio{
+    width: 30%;
+}
+#cabecera--barra{
+    width: 40%;
+    height: auto;
+    align-items: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 0;
+    height: 100%;
+}
+
+li{
+    margin: auto;
+    width: 100px;
+    font-size: 20px;
+}
+
+#titulo{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#titulo--titulo{
+    font-size: 80px;
+    margin-left: 80px;
+    height: 100%;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: rgb(8, 8, 8) 0 0 2px;
+    width: 50%;
+    
+}
+#titulo--espacio{
+    width: 10%;
+}
+#titulo--figure{
+    width: 30%;
+    height: 50%;
+    margin-right: 120px;
+    margin-top: 80px;
+}
+#titulo--img{
+    width: 100%;
+    margin: 0;
+    opacity: 0.75;
+}
+#boton--boton{
+    margin-top: 15px;
+    margin-left: 210px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+body{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flh3.googleusercontent.com%2FQXbA5oyiAlei3Ucw6JZI2KaJ6CDPZB9E6lQ-rl01Ny_zMaq4Copa09x0qmP0EisF1w&f=1&nofb=1&ipt=0acd6e3371c8fdcaeee36724d9498e559e90044a24d171caec5da98f7a5d2551&ipo=images");
+}
